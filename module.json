@@ -1,0 +1,21 @@
+{
+	"name": "venne/gedmo-module",
+	"description": "gedmo module",
+	"keywords": ["cms", "nette", "venne", "module"],
+	"authors": [
+		{
+			"name": "Josef Kříž",
+			"homepage": "http://josef-kriz.cz"
+		}
+	],
+	"require": {
+		"nella/gedmo": "dev-master",
+		"gedmo/doctrine-extensions": "v2.3.3"
+	},
+	"replace": {
+		"nette/nette": "*",
+		"venne/doctrine-module": "2.0.x-dev",
+		"doctrine/common": ">=2.2"
+	},
+	"minimum-stability": "dev"
+}

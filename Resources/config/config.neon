@@ -1,0 +1,12 @@
+gedmo:
+	orm:
+		em:
+			- entityManager
+		loggable: false
+		sluggable: false
+		softDeleteable: false
+		sortable: false
+		timestampable: false
+		translatable: true
+		tree: false
+		uploadable: false
