@@ -15,6 +15,11 @@
 		"nella/gedmo": "dev-master",
 		"gedmo/doctrine-extensions": "v2.3.3"
 	},
+	"autoload": {
+		"psr-0": {
+			"GedmoModule": ""
+		}
+	},
 	"extra": {
 		"branch-alias": {
 			"dev-master": "2.0.x-dev"
@@ -22,7 +27,7 @@
 		"venne": {
 			"configuration": {
 				"extensions": {
-					"gedmo": "Nella\\Doctrine\\Config\\GedmoExtension"
+					"gedmo": "GedmoModule\\DI\\GedmoExtension"
 				}
 			}
 		}
